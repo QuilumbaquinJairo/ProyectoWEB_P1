@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contactos</title>
+<link rel="icon" type="image/x-icon" href="../img/icono_1.ico">
+</head>
+
+<body background="../img/background_3.webp">
+	<div id="Encabezado" style="margin: auto">
+		<center>
+		<h1>
+		<img src="../img/Logo.png" alt="navegar" width="116" height="116"><br>
+		~Transit Deluge~</h1>
+		</center>
+	</div>
+<div id="Barra de Navegacion" style="margin:auto">
+	<center>
+		<img src="../img/barra.png" alt="navegar" width="646" height="31" usemap="#Map2" align="absmiddle">
+        <map name="Map2">
+          <area shape="rect" coords="11,8,117,27" href="../index.html">
+          <area shape="rect" coords="173,9,288,29" href="servicios.html">
+          <area shape="rect" coords="338,9,457,27" href="clientes.html">
+        </map>
+        
+		<h1 style="font-family:Times; color:darkcyan;"> Pongase en contacto con nosotros para realizar algún pedido </h1>
+</center>
+<div style="background-color: #FFE4E1; width: 50%; margin: auto;border: 2px solid #79BD8F;
+  border-radius: 10px">
+<form id="form1" name="form1" method="post" action="../php/envio.php">
+<fieldset  style="border: none">		
+  <blockquote>
+    <p>
+      <label for="nombres2">Nombres:
+        <input type="text" pattern="[A-Za-z\s]+" title="Enter a valid name" name="nombre" id="nombre" required>
+		</label>
+    </p>
+  </blockquote>
+<blockquote>
+  <p>
+      <label for="email2">Email:</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+</blockquote>
+<blockquote>
+  <p>
+      <label for="telefono">Telefono: </label>
+      <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="telefono" required/>
+    </p>
+</blockquote>
+<blockquote>
+  <p>
+      <label for="provincia">Select a province:</label>
+      <select id="provincia" name="province" required>
+        <option value="Azuay" selected>Seleccione una opcion...</option>
+        <option value="Azuay">Azuay: Cuenca</option>
+        <option value="Bolivar">Bolívar: Guaranda</option>
+        <option value="Cañar">Cañar: Azogues</option>
+        <option value="Carchi">Carchi: Tulcán</option>
+        <option value="Chimborazo">Chimborazo: Riobamba</option>
+        <option value="Cotopaxi">Cotopaxi: Latacunga</option>
+        <option value="El Oro">El Oro: Machala</option>
+        <option value="Esmeraldas">Esmeraldas: Esmeraldas</option>
+        <option value="Galapagos">Galápagos: Puerto Baquerizo Moreno</option>
+        <option value="Guayas">Guayas: Guayaquil</option>
+        <option value="Imbabura">Imbabura: Ibarra</option>
+        <option value="Loja">Loja: Loja</option>
+        <option value="Los Rios">Los Ríos: Babahoyo</option>
+        <option value="Manabi">Manabí: Portoviejo</option>
+        <option value="Morona Santiago">Morona Santiago: Macas</option>
+        <option value="Napo">Napo: Tena</option>
+        <option value="Orellana">Orellana: Francisco de Orellana</option>
+        <option value="Pastaza">Pastaza: Puyo</option>
+        <option value="Pichincha">Pichincha: Quito</option>
+        <option value="Santa Elena">Santa Elena: Santa Elena</option>
+        <option value="Santo Domingo de los Tsachilas">Santo Domingo de los Tsáchilas: Santo Domingo</option>
+        <option value="Sucumbios">Sucumbíos: Nueva Loja</option>
+        <option value="Tungurahua">Tungurahua: Ambato</option>
+        <option value="Zamora Chinchipe">Zamora Chinchipe: Zamora</option>
+      </select>
+    </p>
+	<p>
+		<div style="display: flex; flex-direction: column;">
+  		<label for="texarea">Deje su comentario:</label>
+  		<textarea id="textarea" name="textarea" rows="4" cols="50" required></textarea>
+		</div>
+
+	</p>
+</blockquote>
+	
+</fieldset>
+	 <fieldset  style="border: none">
+  <p>
+    <input type="submit" name="submit" id="submit" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="Restablecer">
+  </p>
+ 	 </fieldset>
+</form>
+</div>
+
+<h2 style="font-family:Times; color:darkcyan; margin:0.5rem 22rem;">Visitenos</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.02914579669!2d-78.45788542462792!3d-0.3169181873386345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd39ab5b375f%3A0xb9d1b626ddbbddf1!2sServientrega%20San%20Rafael!5e0!3m2!1ses!2sec!4v1686076496186!5m2!1ses!2sec" width="600" height="450" style="border: 1px; margin: 0 22rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+<footer>
+	<center>
+	<p5><img src="../img/piePagina.png" alt="navegar" width="1346" height="91" usemap="#Map2" align="absmiddle"><br>
+	</p5>
+</center>
+</footer>
+</body>
+</html>
